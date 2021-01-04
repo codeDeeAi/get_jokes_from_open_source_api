@@ -9,7 +9,7 @@ Bada Adeola
 
 ## Description
 
-Get jokes based on https://sv443.net/jokeapi/v2/ open source api
+Get jokes based on https://sv443.net/jokeapi/v2/ open source api written with Vue Js and Tailwind Css
 
 ## How to use
 
