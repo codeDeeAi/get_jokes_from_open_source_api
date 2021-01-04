@@ -150,13 +150,25 @@ export default {
           // error callback
           console.log(response)
         });
+    },
+    getJokesOnOpen(){
+        // GET /someUrl
+        this.$http.get(`https://v2.jokeapi.dev/joke/Any?amount=3`).then(response => {
+         
+          // get body data
+          this.data = response.body.jokes;
+
+        }, response => {
+          // error callback
+          console.log(response)
+        });
     }
   },
   created(){
 
   },
   mounted(){
-    
+    this.getJokesOnOpen()
   }
 }
 </script>
