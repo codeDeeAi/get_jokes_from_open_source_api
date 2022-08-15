@@ -11,6 +11,9 @@ Bada Adeola
 
 Get jokes based on https://sv443.net/jokeapi/v2/ open source api written with Vue Js and Tailwind Css
 
+## Live Link
+https://get-jokes-app.netlify.app/
+
 ## How to use
 
     1. Select One or More category(s)
